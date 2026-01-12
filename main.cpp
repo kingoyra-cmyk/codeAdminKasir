@@ -142,6 +142,16 @@ void transaksiPenjualan(string kodeBarang[], string namaBarang[], string kategor
 void menu() {
     int pilihan;
 
+    bool isRunning = true;
+
+
+
+    while(isRunning) {
+        cout << "Please login: " << endl;
+        cout << "username: "; cin >> c1;
+        cout << "password: "; cin >> c2;
+    }
+
     do {
         cout << "====================================================" << endl;
         cout << "          SISTEM POS MANAJEMEN TOKO V.PRO           " << endl;
